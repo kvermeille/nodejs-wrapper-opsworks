@@ -7,4 +7,10 @@
 # All rights reserved - Do Not Redistribute
 #
 
+# total hack since I don't have anyplace better to put this
+include_recipe 'imagemagick'
+
+#include_recipe 'nodejs::iojs'
 include_recipe 'nodejs'
+include_recipe 'nodejs::nodejs_from_binary'
+include_recipe 'nodejs::npm'
